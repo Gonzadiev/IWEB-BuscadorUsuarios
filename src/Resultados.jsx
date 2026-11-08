@@ -1,3 +1,4 @@
+import reactLogo from './assets/react.svg'
 
 
 function Resultados (props){
@@ -8,6 +9,7 @@ function Resultados (props){
                 return <li key={item.id}>
                     <p>Nombre: {item.firstName} {item.lastName}</p>
                     <p>Email: {item.email}</p>
+                    <p><img src={reactLogo} alt="React Logo" /></p>
                     
                 </li>
                 })}
